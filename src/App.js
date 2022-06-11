@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Menu from './components/menu/Menu'
 import Map from './components/Map'
 import CollectionButtons from './components/CollectionButtons'
-import './App.css'
 
 function App() {
 

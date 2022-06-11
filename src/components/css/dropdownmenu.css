@@ -116,8 +116,9 @@ header {
     margin: 0 2%;
     height: 15%;
     min-height: 50px;
-    width: 15%;
-    min-width: 120px;
+    width: 10%;
+    background-color: #042c5c;
+    min-width: 100px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -125,6 +126,6 @@ header {
 }
 
 .menu-button a {
-  color: black;
+  color: white;
   text-decoration: none;
 }

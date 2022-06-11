@@ -96,7 +96,7 @@ textarea {
   -webkit-overflow-scrolling: touch;
 }
 
-.newaccount {
+.already_registered_p {
     color: #262626;
     color: rgba(var(--i1d,38,38,38),1);
     font-size: 14px;
@@ -104,22 +104,22 @@ textarea {
     text-align: left!important;
 }
 
+
 .signup {
     color: rgba(var(--d69,0,149,246),1);
 }
 
-label,
-button {
+label {
   margin-top: 1rem;
 }
 
-.ant-btn-primary {
-    color: #fff;
-    background-color: #042c5c;
+button {
+    margin-top: 1rem;
     border-color: #042c5c;
-    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
     box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
-  }
+      }
+
+
 
   .ant-btn {
     line-height: 1.5;
@@ -207,23 +207,7 @@ button {
     margin-bottom: 0.5rem;
 }
 
-.sign-up-link {
+.login-link {
     display: inline-block;
     color: black;
-}
-
-.login-div {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    height: 75%;
-    width: 100%;
-
-}
-
-.scrollable {
-    overflow-x: hidden;
-    overflow-y: auto;
 }

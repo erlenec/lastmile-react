@@ -1,7 +1,8 @@
 .button-area {
     font-family: sans-serif;
     display: flex;
-    flex-direction: column;
+    padding: 20px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -10,12 +11,12 @@
 
 .collection-button {
     height: 3%;
-    width: 50%;
+    width: 20%;
     min-height: 40px;
-    min-width: 700px;
-    margin: 0.3% auto;
-    background-color: #009DD3;
-    color: white;
+    min-width: 200px;
+    margin: 0.5% auto;
+    color: #fff;
+    background-color: #042c5c;
     font-size: 16px;
-    font-weight: bold;
+    
 }
