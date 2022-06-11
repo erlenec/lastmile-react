@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /*font-family: 'Nunito', sans-serif;*/
+    color: #1a1a1a;
+    font-family: Sanomat Grab Web,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 2px!important;
+    margin-bottom: 0!important;
+    text-align: left!important;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+}
+
+section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: white;
+}
+
+/*username and password text*/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+    color: #707070;
+    font-size: 14px;
+    margin-top: 4px!important;
+    margin-bottom: 24px!important;
+    text-align: left;
+    font-family: Sanomat Grab Web,sans-serif;
+}
+
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+
+.ant-form-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #363a45;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: "tnum";
+    margin-bottom: 24px;
+    vertical-align: top;
+}
+
+a, a:visited {
+    color: #0095f6;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  height: 48px;
+  line-height: 20px;
+  /*overflow: scroll;*/
+  -webkit-overflow-scrolling: touch;
+}
+
+.newaccount {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    margin: 15px;
+    text-align: left!important;
+}
+
+.signup {
+    color: rgba(var(--d69,0,149,246),1);
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    background-color: #00b14f;
+    border-color: #00b14f;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  }
+
+  .ant-btn {
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    user-select: none;
+    touch-action: manipulation;
+    height: 43px;
+    padding: 11px 12px 13px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+
+  .ant-layout h1, .ant-layout h2, .ant-layout h3, .ant-layout h4, .ant-layout h5, .ant-layout h6 {
+    font-family: Sanomat Grab Web,sans-serif;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+  .CommonWrapper__customCard___22mxE h4, .CommonWrapper__customCard___22mxE h4[class*=center] {
+    color: #1a1a1a;
+    font-family: SanomatGrabApp-Medium;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 2px!important;
+    margin-bottom: 0!important;
+}
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.sign-up-link {
+    display: inline-block;
+    color: black;
+}

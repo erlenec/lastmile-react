@@ -1,0 +1,15 @@
+.header {
+    position: sticky;
+    top: 0px;
+    position: fixed;
+    height: 64px;
+    text-align: center;
+    padding: 0 50px;
+    line-height: 64px;
+    background: white;
+}
+
+.header img {
+    width : 100px;
+    height: 13px;
+}

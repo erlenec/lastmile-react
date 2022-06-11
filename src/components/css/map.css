@@ -1,0 +1,18 @@
+.map-area {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.scrollable {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.map {
+    height: 50%;
+    width: 50%;
+    min-height: 500px;
+    min-width: 700px;
+}
