@@ -10,15 +10,25 @@ export default function Loginnew() {
 
   //check to see if the fields are not empty
   const login = () => {
+    
+
     if ((username == "") & (password == "")) {
       return;
     } else {
+      var bodyFormData = new FormData();
+      bodyFormData.append(username, password);
       // make api call to our backend. we'll leave thisfor later
-      axios
-        .post("http://localhost:8000/login", {
-          username: username,
-          password: password,
-        })
+      axios({
+        method: "post",
+        url: "http://localhost:8000/login",
+        data: bodyFormData,
+        headers: { "Content-Type": "multipart/form-data" },
+      })
+      
+        // .post("http://localhost:8000/login", {
+        //   username: username,
+        //   password: password,
+        // })
         .then(function (response) {
           console.log(response.data.token, "response.data.token");
           if (response.data.token) {
