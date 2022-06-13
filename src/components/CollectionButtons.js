@@ -1,4 +1,5 @@
 import './css/collectionButtons.css';
+import AssignONOPopup from '../AssignONOPopup';
 
 const Map = () => {
     return (
@@ -7,9 +8,7 @@ const Map = () => {
             <button className='collection-button'>
                 Report Cargo Unit
             </button>
-            <button className = 'collection-button'>
-                Start Collection
-            </button>
+            <AssignONOPopup/>
         </div>
       
     );

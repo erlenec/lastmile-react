@@ -93,7 +93,7 @@ const Postal = () => {
                             onFocus={() => setPostalFocus(true)}
                             onBlur={() => setPostalFocus(false)}
                         />
-                        <p id="uidnote" className={postalFocus && postal ? "instructions" : "offscreen"}>
+                        <p id="uidnote" className={postalFocus && postal && !validPostal ? "instructions" : "offscreen"}>
                             <FontAwesomeIcon icon={faInfoCircle} />
                             Please enter a valid postal code.
                             
