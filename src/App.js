@@ -12,7 +12,7 @@ import { RequireToken } from "./Auth";
 import Profile from './Profile';
 import Loginnew from './Loginnew';
 import AssignONOPopup from './AssignONOPopup';
-
+import Loginworks from './Loginworks';
 
 function App() {
 
@@ -21,6 +21,8 @@ function App() {
       <Menu />
       <BrowserRouter>
         <Routes>
+        <Route path="/loginnew" element={[<Loginnew/>]} />
+        <Route path="/loginworks" element={[<Loginworks/>]} />
         <Route path="/" element={[<Map/>, <CollectionButtons/>]} />
         <Route path="/login" element={[<LoginScreen/>]} />
           <Route path="/register" element={[<Register/>]} />

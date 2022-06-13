@@ -20,9 +20,12 @@ export default function Loginnew() {
       // make api call to our backend. we'll leave thisfor later
       axios({
         method: "post",
-        url: "http://localhost:8000/login",
-        data: bodyFormData,
-        headers: { "Content-Type": "multipart/form-data" },
+        url: "http://localhost:8000/token",
+        //data: bodyFormData,
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: JSON.stringify(
+          "grant_type=&username=${email}&password=${password}&scope=&client_id=&client_secret="
+        ),
       })
       
         // .post("http://localhost:8000/login", {
