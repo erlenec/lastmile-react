@@ -7,6 +7,7 @@ import Map from './components/Map';
 import CollectionButtons from './components/CollectionButtons';
 import Popup from './Popup';
 import PostalForm from './Postalform';
+import CollectionProgress from './CollectionProgress';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/login" element={[<LoginScreen/>]} />
           <Route path="/register" element={[<Register/>]} />
           <Route path="/ondemand" element={[<Popup/>]} />
+          <Route path= "/collectionstatus" element={[<CollectionProgress/>]} />
         </Routes>
       </BrowserRouter>
     </main>
