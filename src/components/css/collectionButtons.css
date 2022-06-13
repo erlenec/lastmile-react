@@ -2,11 +2,9 @@
     font-family: sans-serif;
     display: flex;
     padding: 20px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+    flex-direction: row;    
+    
+   
 }
 
 .collection-button {
@@ -17,6 +15,5 @@
     margin: 0.5% auto;
     color: #fff;
     background-color: #042c5c;
-    font-size: 16px;
-    
+    font-size: 16px;   
 }

@@ -2,12 +2,16 @@ import React, { Component } from 'react'
 import '../css/login.css';
 import { useRef, useState, useEffect, useContext } from 'react';
 import AuthContext from "../../context/AuthProvider";
+import { useNavigate } from "react-router";
+import { fetchToken } from "../../Auth";
 
 import axios from '../../api/axios';
 const LOGIN_URL = '/auth';
 
 const Login = () => {
     const { setAuth } = useContext(AuthContext);
+    //const navigate = useNavigate();
+
     const userRef = useRef();
     const errRef = useRef();
 

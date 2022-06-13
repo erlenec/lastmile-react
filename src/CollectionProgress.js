@@ -23,20 +23,21 @@ export default function CollectionProgress() {
         startingStep={0}
         steps={[
           {
-            label: "Submitted",
-            name: "Submitted",
+            label: "Request Submitted",
+            name: "Request Submitted",
             content: step1Content
           },
           {
             label: "In Progress",
             name: "In Progress",
-            content: step2Content
+            content: step2Content,
+            validator: step2Validator
           },
           {
             label: "Collection Complete",
             name: "Collection Complete",
             content: step3Content,
-            validator: step2Validator
+            validator: step3Validator
           },
 
         ]}
